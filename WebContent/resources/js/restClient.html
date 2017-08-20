@@ -1,0 +1,59 @@
+<html>
+
+
+<head>
+
+<link type="text/css" rel="stylesheet" href="http://localhost:8080/FinalSpringProject2/resources/css/add-customer-style.css" />
+	
+
+ <script src="restClient.js"></script> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+
+	
+</head>
+
+
+
+<body>
+
+	<div id="wrapper">
+		<div id="header">
+			<h2>Restfull Web Service Client --- Json Tutorial</h2>
+		</div>
+	</div>
+	<br />
+
+
+	<table>
+		<tbody>
+
+			<tr>
+				<td><label>Customer Id:</label></td>
+				<td><input id="patientID" /></td>
+			</tr>
+			<tr>
+				<td><label>Customer Name:</label></td>
+				<td><input id="patientName" /></td>
+			</tr>
+
+
+			<tr>
+
+				<td>
+				<input type="submit" value="read" class="save" onClick="doGet()" />
+				</td>
+				<td><input type="submit" value="add" class="save"
+					onClick="doPut()" /></td>
+				<td><input type="submit" value="delete" class="save"
+					onClick="doDelete()" /></td>
+
+			</tr>
+
+		</tbody>
+	</table>
+
+</body>
+</html>
